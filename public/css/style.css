@@ -207,3 +207,26 @@ hr {
   text-align: center;
   font-size: 1.5rem;
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+  padding: 2rem;
+  font-family: var(--text-font);
+  font-size: 1.5rem;
+  color: #efefef;
+
+  background-color: var(--primary-green);
+}
+
+.rights strong {
+  font-family: var(--logo-font);
+}
+
+#social-media {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
