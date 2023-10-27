@@ -151,3 +151,59 @@ hr {
 #solutions p {
   font-size: 2rem;
 }
+
+#testemonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 5rem;
+
+  font-family: var(--text-font);
+}
+
+#testemonials h2 {
+  font-family: var(--logo-font);
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.testemonials-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 35rem);
+  gap: 5rem;
+}
+
+.testemonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+
+  background-color: #ededed;
+  border-radius: 3rem;
+}
+
+.testemonial .image {
+  width: 100px;
+  height: 100px;
+
+  background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 50%;
+}
+
+.testemonial .name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.testemonial p {
+  margin: 0 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
