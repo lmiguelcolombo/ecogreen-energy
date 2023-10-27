@@ -103,3 +103,51 @@ hr {
 .title-strong {
   font-family: var(--logo-font);
 }
+
+#solutions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+
+  margin-bottom: 20rem;
+
+  font-family: var(--text-font);
+}
+
+#solutions h2 {
+  font-family: var(--logo-font);
+  font-size: 5rem;
+}
+
+#solutions div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 60%;
+
+  padding: 2rem;
+}
+
+#solutions .image img {
+  border-radius: 50rem;
+}
+
+#solutions .text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  /* border: #000000 1px solid;
+  border-radius: 1.5rem; */
+}
+
+#solutions h3 {
+  font-size: 3rem;
+}
+
+#solutions p {
+  font-size: 2rem;
+}
