@@ -1,0 +1,22 @@
+:root {
+  --logo-background: #cfd1be;
+  --primary-green: #508b46;
+  --secondary-green: #719e68;
+  --primary-blue: #05668d;
+  --primary-pink: #966b9d;
+  --logo-font: "Fira Sans", sans-serif;
+  --text-font: "Nunito Sans", sans-serif;
+  /* tam font padrão: 16px - 100% - 1rem  */
+  font-size: 60%; /* controle das medidas rem */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
