@@ -20,3 +20,50 @@ html,
 body {
   height: 100vh;
 }
+
+#wrapper {
+  background: rgb(207, 209, 190);
+  background: linear-gradient(
+    180deg,
+    rgba(207, 209, 190, 1) 0%,
+    rgb(187, 187, 187) 100%,
+    /* #fff 40% */
+  );
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+  font-size: 2rem;
+  font-family: var(--logo-font);
+  color: var(--primary-green);
+
+  /* background-color: var(--logo-background); */
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.button-contact {
+  height: fit-content;
+
+  padding: 1rem;
+  border: var(--secondary-green);
+  border-radius: 0.5rem;
+  background-color: var(--secondary-green);
+
+  cursor: pointer;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--text-font);
+}
+
+hr {
+  border: #a1a1a1ec 0.1rem solid;
+}
