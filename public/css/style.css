@@ -67,3 +67,39 @@ header {
 hr {
   border: #a1a1a1ec 0.1rem solid;
 }
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5rem;
+
+  /* background-color: var(--logo-background); */
+
+  font-family: var(--text-font);
+
+  padding: 8rem 3rem 20rem 3rem;
+}
+
+.description {
+  gap: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  text-align: right;
+}
+
+.description h2 {
+  font-size: 6rem;
+}
+
+.description p {
+  width: 70%;
+  font-size: 2.5rem;
+}
+
+.title-strong {
+  font-family: var(--logo-font);
+}
