@@ -63,7 +63,7 @@
       <section id="solutions">
         <!-- <div id="grid"> -->
         <h2>Confira nossas soluções</h2>
-        <div class="mobile-normal">
+        <div class="reveal mobile-normal">
           <div class="image">
             <img
               src="https://images.unsplash.com/photo-1521618755572-156ae0cdd74d"
@@ -81,7 +81,7 @@
             </p>
           </div>
         </div>
-        <div class="mobile-reverse">
+        <div class="reveal mobile-reverse">
           <div class="text">
             <h3>Energia eólica</h3>
             <p>
@@ -99,7 +99,7 @@
             />
           </div>
         </div>
-        <div class="mobile-normal">
+        <div class="reveal mobile-normal">
           <div class="image">
             <img
               src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74"
@@ -117,7 +117,7 @@
             </p>
           </div>
         </div>
-        <div class="mobile-reverse">
+        <div class="reveal mobile-reverse">
           <div class="text">
             <h3>Armazenamento de energia</h3>
             <p>
@@ -136,7 +136,7 @@
             />
           </div>
         </div>
-        <div class="mobile-normal">
+        <div class="reveal mobile-normal">
           <div class="image">
             <img
               src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0"
@@ -155,7 +155,7 @@
             </p>
           </div>
         </div>
-        <div class="mobile-reverse">
+        <div class="reveal mobile-reverse">
           <div class="text">
             <h3>Integração de sistemas</h3>
             <p>
@@ -175,7 +175,7 @@
         </div>
         <!-- </div> -->
       </section>
-      <section id="testemonials">
+      <section id="testemonials" class="reveal">
         <h2>Comentários</h2>
         <div class="testemonials-wrapper">
           <div class="testemonial">
@@ -233,6 +233,23 @@
       </div>
     </footer>
 
-    <script src="src/js/*.js"></script>
+    <script src="src/js/index.js"></script>
+    <script type="text/javascript">
+      window.addEventListener("scroll", Reveal);
+
+      function Reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+    </script>
   </body>
 </html>

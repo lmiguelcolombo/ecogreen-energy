@@ -231,6 +231,23 @@ footer {
   gap: 3rem;
 }
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+section.reveal {
+  position: relative;
+  transform: translateY(90px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1024px) {
   #about {
