@@ -1,7 +1,4 @@
-<p align=""><a href="#"><img
-src="public/images/logo-with-title.png"
-alt="Logo"
-/></a></p>
+<h1 align="center">EcoGreen Energy<h1/><p align=""><a href="#"><img/></a></p>
 
 <p align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/node-v18.13.0-green">
